@@ -14,8 +14,18 @@ namespace IRLuceneSearch
     {
         private static List<string> SearchableFields  = new List<string>(){"text", "city"};
 
-        public static Query ParseQuery(string input)
+        public static Query ParseQuery(string input,string latitude, string longitude)
         {
+
+            Query query = null;
+            BooleanQuery bQuery=new BooleanQuery();
+            string FieldSearchPattern = "(.+?):(.+?)";
+            Regex FieldSearchPatternRegex = new Regex(FieldSearchPattern);
+
+            string phraseSearchPattern = @"[\""].+?[\""]|[^ ]+";
+            Regex phrasSearchPatternRegex = new Regex(phraseSearchPattern);
+
+
             /*
              * Handle differente query formates 
              * 1. Phrase query: if the query starts and ends with qutation marks
@@ -31,35 +41,42 @@ namespace IRLuceneSearch
                 return null;
             }
 
+            /* 
+             *  1. Phrase query: if the query starts and ends with qutation marks
+             */
+            //if (phrasSearchPatternRegex.IsMatch(input))
+            //{
+            //    MatchCollection matches=  Regex.Matches(input, phraseSearchPattern);
+            //    for (int i = 0; i < matches.Count; i++)
+            //    {
+            //        if (Regex.IsMatch(matches[i].Value, @"[\""].+?[\""]"))
+            //        {
+            //            ;
+            //        }
+            //        else
+            //        {
+            //            bQuery.Add(QueryConstructor.CreateTermsQuery(matches[i].Value), BooleanClause.Occur.SHOULD);
+            //        }
 
-            Query query = null;
-            string FieldSearchPattern = "(.+?):(.+?)";
-            Regex FieldSearchPatternRegex = new Regex(FieldSearchPattern);
+            //    }
+            //}
 
             /* 
              * 3. Location query: if query contains only location filter
              */
 
-            if (input.Contains("cord:") && input.Contains(","))
+            if (latitude != "" && longitude != "")
             {
-                var terms = input.Trim().Replace("cord:", "").Split(',');
-                if (terms.Length < 2 || terms.Length > 2)
+                double dLatitude;
+                double dLongitude;
+                bool isNumLatitude = double.TryParse(latitude, out dLatitude);
+                bool isNumLongtitude = double.TryParse(longitude, out dLongitude);
+
+                if (isNumLatitude && isNumLatitude)
                 {
-                    // normal query
-                }
-                else
-                {
-                    double latitude;
-                    double longitude;
-                    bool isNumLatitude = double.TryParse(terms[0], out latitude);
-                    bool isNumLongtitude = double.TryParse(terms[1], out longitude);
-                    if (isNumLatitude && isNumLatitude)
-                    {
-                        query = Queries.CreateSpatialQuery(latitude, longitude,10);
-                    }
+                    query = QueryConstructor.CreateSpatialQuery(dLatitude, dLongitude, 10);
                 }
             }
-
 
            /* 
            * 4.  Field Query: Query that is searching a specific field
@@ -76,17 +93,17 @@ namespace IRLuceneSearch
 
                 string[] queryTerms = input.Split(':');
                 string[] searchTerms = new string[queryTerms.Length - 1];
-               
 
-                
+
+
                 if (IsSearchableField(queryTerms[0]))
                 {
                     Array.Copy(queryTerms, 1, searchTerms, 0, queryTerms.Length - 1);
-                    query = Queries.CreateFieldSearchQuery(new[] { queryTerms[0] }, searchTerms);
+                    query = QueryConstructor.CreateFieldSearchQuery(new[] { queryTerms[0] }, searchTerms);
                 }
                 else
                 {
-                    query = Queries.CreateTermsQuery(input);
+                    query = QueryConstructor.CreateTermsQuery(input);
                 }
 
 
@@ -97,7 +114,7 @@ namespace IRLuceneSearch
             }
             else
             {
-                query = Queries.CreateTermsQuery(input);
+                query = QueryConstructor.CreateTermsQuery(input);
             }
 
 

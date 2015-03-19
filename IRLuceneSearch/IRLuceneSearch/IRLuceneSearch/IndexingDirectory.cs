@@ -8,6 +8,12 @@ using System.Web;
 
 namespace IRLuceneSearch
 {
+    /**
+     * IndexingDirectory saves Directories for:
+     * 1. Bussiness dataset
+     * 2. Review dataset
+     * 3. Created Index
+     */
     public class IndexingDirectory
     {
         // properties
@@ -36,6 +42,7 @@ namespace IRLuceneSearch
                 return _indexFilePathTemp;
             }
         }
+
         public static string LuceneIndexDir
         {
             get

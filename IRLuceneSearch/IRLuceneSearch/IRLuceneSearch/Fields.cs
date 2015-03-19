@@ -1,23 +1,27 @@
-﻿using System;
+﻿using Lucene.Net.Analysis;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
 namespace IRLuceneSearch
 {
-
+    public class ServiceAnalyzer
+    {
+       // public static Analyzer analayzer = null;
+    }
     public struct Fields
     {
-        public const string Latitude = "latitude";
-        public const string Longitude = "longitude";
-        public const string HasGeoCode = "hasGeoCode";
-        public const string LocationTierPrefix = "LocationTierPrefix_";
+        public const string LAT_FIELD = "latitude";
+        public const string LON_FIELD = "longitude";
+        public const string HAS_GEO_CODE = "hasGeoCode";
+        public const string LOC_TIER_PREFIX = "LocationTierPrefix_";
     }
 
     public struct FieldFlags
     {
-        public const string HasField = "true";
-        public const string DoesNotHasField = "false";
+        public const string HAS_FIELD = "true";
+        public const string DOES_NOT_HAS_FIELD = "false";
     }
 
     public class CartesianVaraibles

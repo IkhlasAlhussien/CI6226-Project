@@ -52,21 +52,29 @@
                         <table class="topsearch" style="margin-top: 25px" >
                             <tbody>
                                  <tr>
+                                    <td>Limit</td>  
                                     <td style="height:30px;width:150px">
-                                        Limit                                        
+                                          <input class="resulLimit" type="text" value="1000" size="10" name="limit" id="limit" autocomplete="on" />                                        
                                     </td>
-                                    <td>
-                                    <input type="text" value="1000" size="10" name="limit" id="limit" />                                        
-                                    </td>
+                                     
                                 </tr>
                                 <tr>
-                                <td>
-                                Find text in review
-                                </td>
-                                    <td>
-                                        <input type="text" value="" size="41" name="s" id="s" autocomplete="on" />
-                                        <input type="button" id="searchsubmit" value="Search" autofocus ="autofocus"  />
+                                <td style="height:30px;width:150px">Search Keywords:</td>
+                                    <td >
+                                        <input class="query" type="text" value="" size="46" name="s" id="s" autocomplete="on" />                                     
                                     </td>
+                                    </tr>
+                                <tr>
+                                    <td style="height:30px;width:150px">Location: </td>
+                                    <td style="height:30px;width:150px">
+                                        <input class="lat" type="text" value="" size="10" name="lat" id="lat" autocomplete="on" />
+                                        <input class="long" type="text" value="" size="10" name="long" id="long" autocomplete="on" />
+                                    </td>
+                                    
+                                </tr>
+                                <tr><td></td><td><input type="button" id="searchsubmit" value="Search" autofocus ="autofocus"/></td></tr>
+                                <tr>
+                                   
                                 </tr>
                     @*              <tr>
                                     <td style="height:30px;width:100px">
@@ -115,7 +123,7 @@
                                 <input type="submit" id="createIndex" value="Create Index" />
                             </td>
                             <td>
-                                <input type="submit" id="Optimize" value="Optimize" />
+                                <input type="submit" id="Optimize" hidden="hidden" value="Optimize" />
                             </td>
                         </tr>
                     </table>
@@ -223,10 +231,12 @@
 
             $("#searchsubmit").click(function (evt) {
 
-                var value = $('#s').val();
-                var limit = $('#limit').val();
+                var query = $('.query').val();
+                var limit = $('.resulLimit').val();
+                var lat = $('.lat').val();
+                var long = $('.long').val();
                 $(".searchBody").load("/home/Search",
-                            { input: value, limit: limit}, function (data) {
+                            { queryText: query, limit: limit, latitude: lat, longitude: long }, function (data) {
                                 
                             });
 
