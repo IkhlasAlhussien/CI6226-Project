@@ -14,7 +14,7 @@ namespace IRLuceneSearch
     {
         private static List<string> SearchableFields  = new List<string>(){"text", "city"};
 
-        public static Query ParseQuery(string input,string latitude, string longitude)
+        public static BooleanQuery ParseQuery(string input, string latitude, string longitude)
         {
 
             Query query = null;
@@ -22,7 +22,7 @@ namespace IRLuceneSearch
             string FieldSearchPattern = "(.+?):(.+?)";
             Regex FieldSearchPatternRegex = new Regex(FieldSearchPattern);
 
-            string phraseSearchPattern = @"[\""].+?[\""]|[^ ]+";
+            string phraseSearchPattern = @"[\""\""].+?[\""\""]|[^ ]+";
             Regex phrasSearchPatternRegex = new Regex(phraseSearchPattern);
 
 
@@ -41,25 +41,7 @@ namespace IRLuceneSearch
                 return null;
             }
 
-            /* 
-             *  1. Phrase query: if the query starts and ends with qutation marks
-             */
-            //if (phrasSearchPatternRegex.IsMatch(input))
-            //{
-            //    MatchCollection matches=  Regex.Matches(input, phraseSearchPattern);
-            //    for (int i = 0; i < matches.Count; i++)
-            //    {
-            //        if (Regex.IsMatch(matches[i].Value, @"[\""].+?[\""]"))
-            //        {
-            //            ;
-            //        }
-            //        else
-            //        {
-            //            bQuery.Add(QueryConstructor.CreateTermsQuery(matches[i].Value), BooleanClause.Occur.SHOULD);
-            //        }
-
-            //    }
-            //}
+          
 
             /* 
              * 3. Location query: if query contains only location filter
@@ -74,10 +56,31 @@ namespace IRLuceneSearch
 
                 if (isNumLatitude && isNumLatitude)
                 {
-                    query = QueryConstructor.CreateSpatialQuery(dLatitude, dLongitude, 10);
+                    bQuery.Add(QueryConstructor.CreateSpatialQuery(dLatitude, dLongitude, 10),BooleanClause.Occur.MUST);
                 }
             }
 
+            /* 
+            *  1. Phrase query: if the query starts and ends with qutation marks
+            */
+            bool m = Regex.IsMatch(input, @"[\""].+?[\""]");
+
+            if (phrasSearchPatternRegex.IsMatch(input))
+            {
+                MatchCollection matches = Regex.Matches(input, phraseSearchPattern);
+                for (int i = 0; i < matches.Count; i++)
+                {
+                    if (Regex.IsMatch(matches[i].Value, @"[\""].+?[\""]"))
+                    {
+                        bQuery.Add(QueryConstructor.CreatePhraseQuery(matches[i].Value), BooleanClause.Occur.MUST);
+                    }
+                    else
+                    {
+                        bQuery.Add(QueryConstructor.CreateTermsQuery(matches[i].Value), BooleanClause.Occur.SHOULD);
+                    }
+
+                }
+            }
            /* 
            * 4.  Field Query: Query that is searching a specific field
            */
@@ -107,18 +110,18 @@ namespace IRLuceneSearch
                 }
 
 
-                //    .Where(x => !string.IsNullOrEmpty(x)).Select(x => x.Trim() + "*");
+                //.Where(x => !string.IsNullOrEmpty(x)).Select(x => x.Trim() + "*");
                 //input = string.Join(" ", terms);
 
                 //query = Queries.CreateTermQueryWithFields(latitude, longitude);
             }
             else
             {
-                query = QueryConstructor.CreateTermsQuery(input);
+                bQuery.Add(QueryConstructor.CreateTermsQuery(input), BooleanClause.Occur.SHOULD);
             }
 
 
-            return query;
+            return bQuery;
 
         }
 

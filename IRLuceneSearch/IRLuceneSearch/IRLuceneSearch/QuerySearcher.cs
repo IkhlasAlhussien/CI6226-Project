@@ -23,7 +23,7 @@ namespace IRLuceneSearch
             }
 
             /* Called QueryParser to create query out of th query string */
-            Query query = QueryParserClass.ParseQuery(input, latitude, longitude);
+            BooleanQuery query = QueryParserClass.ParseQuery(input, latitude, longitude);
 
             /*start searching */
             using (var searcher = new IndexSearcher(IndexingDirectory.IndexFilePath, false))

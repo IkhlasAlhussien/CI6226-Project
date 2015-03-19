@@ -90,12 +90,8 @@ namespace IRLuceneSearch
 
         public static PhraseQuery CreatePhraseQuery(string searchQuery)
         {
-            //var analyzer = new KeywordAnalyzer();
-            //var parser = new QueryParser(Version.LUCENE_29, "text", analyzer);
-            //var query = parser.Parse(searchQuery);
-            //analyzer.Close();
             PhraseQuery query = new PhraseQuery();
-            //query.Add(new Term(searchQuery);
+            query.Add(new Term(searchQuery));
             return query;
         }
 
