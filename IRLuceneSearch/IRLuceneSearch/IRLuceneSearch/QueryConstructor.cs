@@ -88,12 +88,16 @@ namespace IRLuceneSearch
             return query;
         }
 
-        public static PhraseQuery CreatePhraseQuery(string searchQuery)
-        {
-            PhraseQuery query = new PhraseQuery();
-            query.Add(new Term(searchQuery));
-            return query;
-        }
+        //public static Query CreatePhraseQuery(string searchQuery)
+        //{
+        //    //PhraseQuery query = new PhraseQuery();
+        //    //query.Add(new Term(searchQuery));
+        //    var analyzer = new StandardAnalyzer(Version.LUCENE_29);
+        //    var parser = new QueryParser(Version.LUCENE_29, "text", analyzer);
+        //    var query = parser.Parse(searchQuery);
+        //    analyzer.Close();
+        //    return query;
+        //}
 
 
     }

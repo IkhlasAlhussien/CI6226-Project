@@ -16,7 +16,7 @@ namespace IRLuceneSearch
         public IEnumerable<Review> SearchQuery(string input, string latitude, string longitude, int resultLimit)
         {
             IEnumerable<Review> searchResult = null;
-            /* Check:if the seach query is empty then return*/
+            /* Check:if the search query is empty then return*/
             if (string.IsNullOrEmpty(input))
             {
                 return searchResult;
@@ -32,7 +32,7 @@ namespace IRLuceneSearch
                 {
                     searcher.SetDefaultFieldSortScoring(true, true);
                     TopDocs topHits = searcher.Search(query, null, resultLimit, Sort.RELEVANCE);
-                    searchResult = SearchResultMapper.MapLuceneToDataList(topHits, searcher);
+                    searchResult = SearchResultMapper.MapLuceneToDataList(topHits, searcher,input);
                 }
             }
 

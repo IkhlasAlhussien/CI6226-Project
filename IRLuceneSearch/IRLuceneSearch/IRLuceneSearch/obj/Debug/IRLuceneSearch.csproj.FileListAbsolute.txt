@@ -116,3 +116,31 @@ E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene
 E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.csprojResolveAssemblyReference.cache
 E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
 E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.pdb
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Microsoft.QualityTools.Testing.Fakes.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.csprojResolveAssemblyReference.cache
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb

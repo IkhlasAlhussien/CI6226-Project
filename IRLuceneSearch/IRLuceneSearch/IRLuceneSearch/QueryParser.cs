@@ -27,9 +27,9 @@ namespace IRLuceneSearch
 
 
             /*
-             * Handle differente query formates 
-             * 1. Phrase query: if the query starts and ends with qutation marks
-             * 2. Phrase query with Location: if the query starts and ends with qutation marks and contains locations filter
+             * Handle different query formates 
+             * 1. Phrase query: if the query starts and ends with quotation marks
+             * 2. Phrase query with Location: if the query starts and ends with quotation marks and contains locations filter
              * 3. Location query: if query contains only location filter
              * 4. Field Query: Query that is searching a specific field
              * 5. Free text query: all Other kinds of queries 
@@ -61,7 +61,7 @@ namespace IRLuceneSearch
             }
 
             /* 
-            *  1. Phrase query: if the query starts and ends with qutation marks
+            *  1. Phrase query: if the query starts and ends with quotation marks
             */
             bool m = Regex.IsMatch(input, @"[\""].+?[\""]");
 
@@ -72,7 +72,7 @@ namespace IRLuceneSearch
                 {
                     if (Regex.IsMatch(matches[i].Value, @"[\""].+?[\""]"))
                     {
-                        bQuery.Add(QueryConstructor.CreatePhraseQuery(matches[i].Value), BooleanClause.Occur.MUST);
+                        bQuery.Add(QueryConstructor.CreateTermsQuery(matches[i].Value), BooleanClause.Occur.MUST);
                     }
                     else
                     {
