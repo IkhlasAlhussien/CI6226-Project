@@ -15,27 +15,22 @@
                     <a href="http://ericulous.com/demo/2007/08/25/a-post-with-multiple-test-elements/"
                         title="@r.review_id">@r.review_id</a>
                 </h1>
-                <table>
+                <table width="100%">
                 <tr>
-                <td style="width:70%">
-                <div class="content" style="width:100%">
-                    <b>Business ID:  </b>@r.business_id
-                    <b>Latitude: </b>@r.business.latitude
-                    <b>  Longitude: </b>@r.business.longitude <br />
-                    @r.text
-                    <br />
-                   @* <span class="content_footer"><cite>http://ericulous.com/demo/2007/08/25/a-post-with-multiple-test-elements/
-                        - </cite><a href="http://ericulous.com/demo/category/featured/" rel="category tag">Featured</a>
-                        - <a href="http://ericulous.com/demo/category/make-money/" rel="category tag">Make Money</a>
-                        - <a href="http://ericulous.com/demo/category/uncategorized/" rel="category tag">Uncategorized</a>
-                        - <a href="http://ericulous.com/demo/2007/08/25/a-post-with-multiple-test-elements/#comments"
-                            title="Comment on A Post with Multiple Test Elements">7 Comments</a> </span>*@
+                <td style="width:80%">
+                <div class="contentbody" style="width:90%">
+                    @r.text            
+                </div>
+                <br />
+                <div>
+                <span style="color:Gray; font-style:italic">Latitude: @r.business.latitude Longitude:@r.business.longitude</span>
+                <span style="color:pink; font-style:italic">@r.business.full_address</span>
                 </div>
                 </td>
                 <td valign="top">
-                <div style="margin-left:10px;" >
+               @* <div style="margin-left:10px;" >
                     <b>Rank</b><br /> @r.rank
-                </div>                                
+                </div>  *@                              
                 </td>
                 <td valign="top">
                 <div style="">
@@ -62,20 +57,7 @@
 <table id="pagenav">
     <tbody>
         <tr valign="top">
-@*            <td>
-                <span class="csb" style="background-position: -26px 0px; width: 18px"></span>
-            </td>
-            <td>
-                <span class="csb" style="background-position: -44px 0px; width: 16px"></span>1
-            </td>
-            <td>
-                <span class="csb ch" style="background-position: -60px 0px; width: 16px"></span>
-                2
-            </td>
-            <td class="b">
-                <a href="http://ericulous.com/demo/page/2/"><span class="csb ch" style="background-position: -76px 0px;
-                    width: 66px; margin-right: 34px"></span>Next</a>
-            </td>*@
+
         </tr>
     </tbody>
 </table>
@@ -84,11 +66,12 @@
 </div>
     <script type="text/javascript">
         $(function () {
-
-
-
-
-
+            $(".contentbody").each(function (i) {
+                len = $(this).text().length;
+                if (len > 500) {
+                    $(this).text($(this).text().substr(0, 500) + '...');
+                }
+            });
             $(".divResult").html(' &nbsp;results <b>' + $('#total').val() + '</b> (<b>' + $('#speed').val() + '</b> seconds)&nbsp;');
 
 

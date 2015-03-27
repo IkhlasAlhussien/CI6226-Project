@@ -1,0 +1,248 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lucene.Net | MVC</title>
+    <link rel="stylesheet" href="http://ericulous.com/demo/wp-content/themes/woogle/style.css"
+        type="text/css" media="screen" />
+    <link rel="pingback" href="http://ericulous.com/demo/xmlrpc.php" />
+    <meta name='robots' content='noindex,follow' />
+    <link rel="alternate" type="application/rss+xml" title="Demo WP &raquo; Feed" href="http://ericulous.com/demo/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Demo WP &raquo; Comments Feed"
+        href="http://ericulous.com/demo/comments/feed/" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ericulous.com/demo/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ericulous.com/demo/wp-includes/wlwmanifest.xml" />
+    <style type="text/css">
+        .recentcomments a
+        {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <script type="text/javascript">        window.jQuery || document.write('<script src="@Url.Content("~/Scripts/jquery-1.7.2.min.js")"><\/script>')</script>
+</head>
+<body class="home blog">
+    <div id="header">
+        <div id="header_top">
+            <ul>
+                <li class="current_page_item"><a href="">Home</a></li>
+                <li class="page_item page-item-2"><a href="">About</a></li>
+                <li class="page_item page-item-19"><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header_top_border header_top_border_left">
+        </div>
+        <div class="header_top_border header_top_border_right">
+        </div>
+        <p id="header_topright">
+            <a href="">Log in</a></p>
+        <form method="get" id="searchform" action="">
+        <table class="topsearch clr" cellspacing="20">
+            <tbody>
+                <tr>
+                    <td>
+                        <h1>
+                            <img alt="Home" style="width: 200px; height: 60px" src="../../Content/lucene.jpg" />
+                        </h1>
+                    </td>
+                    <td class="td_topsearch" style="padding-left:20px">
+                        <table class="topsearch" style="margin-top: 25px" >
+                            <tbody>
+                                 <tr>
+                                    <td>Limit</td>  
+                                    <td style="height:30px;width:150px">
+                                          <input class="resulLimit" type="text" value="1000" size="10" name="limit" id="limit" autocomplete="on" />                                        
+                                    </td>
+                                     
+                                </tr>
+                                <tr>
+                                <td style="height:30px;width:150px">Search Keywords:</td>
+                                    <td >
+                                        <input class="query" type="text" value="" size="46" name="s" id="s" autocomplete="on" />                                     
+                                    </td>
+                                    </tr>
+                                <tr>
+                                    <td style="height:30px;width:150px">Location: </td>
+                                    <td style="height:30px;width:150px">
+                                        <input class="lat" type="text" value="" size="10" name="lat" id="lat" autocomplete="on" />
+                                        <input class="long" type="text" value="" size="10" name="long" id="long" autocomplete="on" />
+                                    </td>
+                                    
+                                </tr>
+                                <tr><td></td><td><input type="button" id="searchsubmit" value="Search" autofocus ="autofocus"/></td></tr>
+                                <tr>
+                                   
+                                </tr>
+                    @*              <tr>
+                                    <td style="height:30px;width:100px">
+                                        Latitude                                        
+                                    </td>
+                                    <td>
+                                    <input type="text" value="" size="10" name="limit" id="limit" />                                        
+                                    </td>
+                                </tr>*@
+
+                            </tbody>
+                        </table>
+                        &nbsp;
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </div>
+    <div id="header_bottom">
+        <div>
+            Stats</div>
+        <p class='divResult' style="height: 15px">
+        </p>
+    </div>
+    <table id="sidebar">
+        <tbody>
+            <tr>
+                <td>
+                    <h2>
+                        Indexing
+                        <img class="loading" src="../../Content/loading1.gif" style="vertical-align: middle" /></h2>
+                    </br>
+                    <table>
+                        <tr>
+                            <td>
+                                <select class="analyzer-select" id="lang" name="lang">
+                                    <option value="StandardAnalyzer" selected="selected">StandardAnalyzer</option>
+                                    <option value="KeywordAnalyzer">KeywordAnalyzer</option>
+                                    <option value="SimpleAnalyzer">SimpleAnalyzer</option>
+                                    <option value="StopAnalyzer">StopAnalyzer</option>
+                                    <option value="WhiteSpaceAnalyzer">WhiteSpaceAnalyzer</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input type="submit" id="createIndex" value="Create Index" />
+                            </td>
+                            <td>
+                                <input type="submit" id="Optimize" hidden="hidden" value="Optimize" />
+                            </td>
+                        </tr>
+                    </table>
+                    </br> @*               <script type="text/javascript"><!--
+                                         google_ad_client = "pub-0000000000000000";
+                                         google_ad_width = 160;
+                                         google_ad_height = 600;
+                                         google_ad_format = "160x600_as";
+                                         google_ad_type = "text_image";
+                                         google_ad_channel = "4187007573";
+                                         google_color_border = "FFFFFF";
+                                         google_color_bg = "FFFFFF";
+                                         google_color_link = "0007EE";
+                                         google_color_text = "000000";
+                                         google_color_url = "008000";
+        //--></script>
+                    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                    </script>*@
+                    <h2>
+                        Advanced Search</h2>
+@*                    <ul>
+                        <li class="cat-item cat-item-8"><a href="http://ericulous.com/demo/category/featured/">
+                            Featured</a> </li>
+                        <li class="cat-item cat-item-3"><a href="http://ericulous.com/demo/category/make-money/">
+                            Make Money</a> </li>
+                        <li class="cat-item cat-item-1"><a href="http://ericulous.com/demo/category/uncategorized/">
+                            Uncategorized</a> </li>
+                        <li class="cat-item cat-item-28"><a href="http://ericulous.com/demo/category/wp-premium-themes/">
+                            WP Premium Themes</a> </li>
+                    </ul>
+                    <h2>
+                        Recent Comments</h2>
+                    <ul id="recentcomments">
+                        <li class="recentcomments"><span class="comment-author-link"><a href='http://ericulous.com/'
+                            rel='external nofollow' class='url'>Mr WordPress</a></span> on <a href="http://ericulous.com/demo/2007/07/10/hello-world/#comment-114">
+                                Hello world!</a></li><li class="recentcomments"><span class="comment-author-link">Eric</span>
+                                    on <a href="http://ericulous.com/demo/2007/08/25/a-post-with-multiple-test-elements/#comment-113">
+                                        A Post with Multiple Test Elements</a></li><li class="recentcomments"><span class="comment-author-link">
+                                            Eric</span> on <a href="http://ericulous.com/demo/2007/08/25/a-post-with-multiple-test-elements/#comment-112">
+                                                A Post with Multiple Test Elements</a></li><li class="recentcomments"><span class="comment-author-link">
+                                                    <a href='http://camera101.org' rel='external nofollow' class='url'>Matt G.</a></span>
+                                                    on <a href="http://ericulous.com/demo/2007/08/23/why-you-should-host-with-bluehost/#comment-86">
+                                                        Why you should host with Bluehost?</a></li><li class="recentcomments"><span class="comment-author-link">
+                                                            <a href='http://ericulous.com' rel='external nofollow' class='url'>Genkisan</a></span>
+                                                            on <a href="http://ericulous.com/demo/2007/08/25/a-post-with-multiple-test-elements/#comment-81">
+                                                                A Post with Multiple Test Elements</a></li></ul>
+                    <h2>
+                        Blogroll</h2>
+                    <ul class='xoxo blogroll'>
+                        <li><a href="http://malaysiashopr.com" title="Online Shopping Made Easy for Malaysia Shoppers">
+                            Malaysia Blogshop</a> Online Shopping Made Easy for Malaysia Shoppers</li>
+                        <li><a href="http://blogshopr.com" title="Online Shopping Made Easy for Singapore Shoppers">
+                            Singapore Blogshop</a> Online Shopping Made Easy for Singapore Shoppers</li>
+                        <li><a href="http://ericulous.com" title="Free &amp; Premium Wordpress Themes">Smashing
+                            Wordpress Themes</a> Free &amp; Premium Wordpress Themes</li>
+                    </ul>*@
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="searchBody">
+        @RenderBody()
+    </div>
+    <div class="bottombar">
+        @*<div id="bottomsearch">
+            <form method="get" id="searchform_bottom" action="http://ericulous.com/demo/">
+            <div>
+                <input type="text" value="" size="41" name="s" />
+                <input type="submit" id="searchsubmit_bottom" value="Search" />
+            </div>
+            </form>
+        </div>
+        <div id="footerpages">
+            <ul>
+                <li><a href="http://ericulous.com/demo">Home</a></li>
+                <li class="page_item page-item-2"><a href="http://ericulous.com/demo/about/">About</a></li>
+                <li class="page_item page-item-19"><a href="http://ericulous.com/demo/contact/">Contact</a></li>
+                <li><a href="http://ericulous.com/2009/03/18/wp-theme-woogle-the-google-search-engine-clone"
+                    title="Premium Wordpress Themes">Design: Premium Wordpress Themes</a></li>
+            </ul>
+        </div>*@
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(".loading").hide();
+            $("#createIndex").click(function (evt) {
+                $(".loading").show();
+
+                var analyzer = $('.analyzer-select').val();
+                $(".divResult").load("/home/Create",
+                            { strAnalyzer: analyzer }, function () {
+                                $(".loading").hide();
+                            });
+
+            });
+            $("#Optimize").click(function (evt) {
+                $(".loading").show();
+                var analyzer = $('.analyzer-select').val();
+                $(".divResult").load("/home/OptimizeIndex",
+                            { strAnalyzer: analyzer }, function () {
+                                $(".loading").hide();
+                            });
+
+            });
+
+            $("#searchsubmit").click(function (evt) {
+
+                var query = $('.query').val();
+                var limit = $('.resulLimit').val();
+                var lat = $('.lat').val();
+                var long = $('.long').val();
+                $(".searchBody").load("/home/Search",
+                            { queryText: query, limit: limit, latitude: lat, longitude: long }, function (data) {
+                                
+                            });
+
+            });
+
+        });
+    </script>
+</body>
+</html>

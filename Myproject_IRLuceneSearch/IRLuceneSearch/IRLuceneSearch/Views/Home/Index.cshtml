@@ -1,0 +1,96 @@
+﻿@model IRLuceneSearch.ViewModels.IndexViewModel
+<div class="contentwrapper">
+    <div>
+        <div class="contentol">
+        
+        @if (Model.SearchIndexData != null)
+        {
+             <input type ="hidden" id="total" value="@Model.SearchIndexData.Count()"/>
+             <input type ="hidden" id="speed" value="@Model.Speed"/>
+            foreach (IRLuceneSearch.Models.Review r in Model.SearchIndexData)
+            {
+            <div class="post-17 post type-post status-publish format-standard hentry category-featured category-make-money category-uncategorized tag-make-money tag-test-tag"
+                id="post-17">
+                <h1 class="content_header">
+                    <a href="http://ericulous.com/demo/2007/08/25/a-post-with-multiple-test-elements/"
+                        title="@r.review_id">@r.review_id</a>
+                </h1>
+                <table>
+                <tr>
+                <td style="width:70%">
+                <div class="content" style="width:100%">
+                    <b>Business ID:  </b>@r.business_id
+                    <b>Latitude: </b>@r.business.latitude
+                    <b>  Longitude: </b>@r.business.longitude <br />
+                    @r.text
+                    <br />
+                   @* <span class="content_footer"><cite>http://ericulous.com/demo/2007/08/25/a-post-with-multiple-test-elements/
+                        - </cite><a href="http://ericulous.com/demo/category/featured/" rel="category tag">Featured</a>
+                        - <a href="http://ericulous.com/demo/category/make-money/" rel="category tag">Make Money</a>
+                        - <a href="http://ericulous.com/demo/category/uncategorized/" rel="category tag">Uncategorized</a>
+                        - <a href="http://ericulous.com/demo/2007/08/25/a-post-with-multiple-test-elements/#comments"
+                            title="Comment on A Post with Multiple Test Elements">7 Comments</a> </span>*@
+                </div>
+                </td>
+                <td valign="top">
+                <div style="margin-left:10px;" >
+                    <b>Rank</b><br /> @r.rank
+                </div>                                
+                </td>
+                <td valign="top">
+                <div style="">
+                    <b>Scores</b><br/> @r.scores
+                </div>                
+                </td>
+                <td valign="top">
+                <div style="">
+                    <b>Doc ID</b><br/> @r.docid
+                </div>                
+                </td>
+                </tr>
+                </table>
+                
+            </div>
+            }
+        }
+            <div style="clear: both">
+            </div>
+        </div>
+    </div>
+</div>
+<br clear="all" />
+<table id="pagenav">
+    <tbody>
+        <tr valign="top">
+@*            <td>
+                <span class="csb" style="background-position: -26px 0px; width: 18px"></span>
+            </td>
+            <td>
+                <span class="csb" style="background-position: -44px 0px; width: 16px"></span>1
+            </td>
+            <td>
+                <span class="csb ch" style="background-position: -60px 0px; width: 16px"></span>
+                2
+            </td>
+            <td class="b">
+                <a href="http://ericulous.com/demo/page/2/"><span class="csb ch" style="background-position: -76px 0px;
+                    width: 66px; margin-right: 34px"></span>Next</a>
+            </td>*@
+        </tr>
+    </tbody>
+</table>
+<div class="clr">
+    <br />
+</div>
+    <script type="text/javascript">
+        $(function () {
+
+
+
+
+
+            $(".divResult").html(' &nbsp;results <b>' + $('#total').val() + '</b> (<b>' + $('#speed').val() + '</b> seconds)&nbsp;');
+
+
+        });
+     </script>

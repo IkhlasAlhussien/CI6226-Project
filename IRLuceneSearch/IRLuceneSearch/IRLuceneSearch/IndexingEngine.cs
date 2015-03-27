@@ -156,19 +156,18 @@ namespace IRLuceneSearch
             var doc = new Document();
 
             doc.Add(new Field("business_id", review.business_id, Field.Store.YES, Field.Index.NOT_ANALYZED));
-            doc.Add(new Field("date", review.date, Field.Store.YES, Field.Index.NOT_ANALYZED));
+            //doc.Add(new Field("date", review.date, Field.Store.YES, Field.Index.NOT_ANALYZED));
             doc.Add(new Field("review_id", review.review_id, Field.Store.YES, Field.Index.NOT_ANALYZED));
-            doc.Add(new Field("stars", review.stars.ToString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
+            //doc.Add(new Field("stars", review.stars.ToString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
             doc.Add(new Field("text", review.text, Field.Store.YES, Field.Index.ANALYZED));
-            doc.Add(new Field("type", review.type, Field.Store.YES, Field.Index.NOT_ANALYZED));
-            doc.Add(new Field("user_id", review.user_id, Field.Store.YES, Field.Index.NOT_ANALYZED));
-            doc.Add(new Field("cool", review.cool.ToString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
-            doc.Add(new Field("funny", review.funny.ToString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
-            doc.Add(new Field("useful", review.useful.ToString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
+            //doc.Add(new Field("type", review.type, Field.Store.YES, Field.Index.NOT_ANALYZED));
+            //doc.Add(new Field("user_id", review.user_id, Field.Store.YES, Field.Index.NOT_ANALYZED));
+            //doc.Add(new Field("cool", review.cool.ToString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
+            //doc.Add(new Field("useful", review.useful.ToString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
             doc.Add(new Field("full_address", review.business.full_address, Field.Store.YES, Field.Index.NOT_ANALYZED));
             doc.Add(new Field("city", review.business.city, Field.Store.YES, Field.Index.NOT_ANALYZED));
-            doc.Add(new Field("state", review.business.state, Field.Store.YES, Field.Index.NOT_ANALYZED));
-            doc.Add(new Field("attributes", review.business.getAttributesString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
+            //doc.Add(new Field("state", review.business.state, Field.Store.YES, Field.Index.NOT_ANALYZED));
+            //doc.Add(new Field("attributes", review.business.getAttributesString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
             doc.Add(new Field("lan", review.business.latitude.ToString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
             doc.Add(new Field("long", review.business.longitude.ToString(), Field.Store.YES, Field.Index.NOT_ANALYZED));
 

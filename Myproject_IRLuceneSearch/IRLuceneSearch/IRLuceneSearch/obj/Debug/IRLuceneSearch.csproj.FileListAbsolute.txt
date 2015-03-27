@@ -1,0 +1,146 @@
+D:\exam\IR\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.dll
+D:\exam\IR\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.pdb
+D:\exam\IR\IRLuceneSearch\IRLuceneSearch\bin\EntityFramework.xml
+D:\exam\IR\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
+D:\exam\IR\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb
+D:\exam\IR\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.dll
+D:\exam\IR\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.pdb
+D:\NTU\IR\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
+D:\NTU\IR\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb
+D:\NTU\IR\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.dll
+D:\NTU\IR\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.pdb
+D:\NTU\IR\IRLuceneSearch\IRLuceneSearch\bin\EntityFramework.dll
+D:\NTU\IR\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.dll
+D:\NTU\IR\IRLuceneSearch\IRLuceneSearch\bin\EntityFramework.xml
+D:\NTU\IR\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.pdb
+D:\exam\IR\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.csprojResolveAssemblyReference.cache
+C:\Users\ikhl0001\Downloads\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.csprojResolveAssemblyReference.cache
+C:\Users\ikhl0001\Downloads\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
+C:\Users\ikhl0001\Downloads\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb
+C:\Users\ikhl0001\Downloads\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.dll
+C:\Users\ikhl0001\Downloads\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.pdb
+C:\Users\ikhl0001\Downloads\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.dll
+C:\Users\ikhl0001\Downloads\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\ikhl0001\Downloads\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\EntityFramework.xml
+C:\Users\ikhl0001\Downloads\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.pdb
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.pdb
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\EntityFramework.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.pdb
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.csprojResolveAssemblyReference.cache
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.pdb
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb
+E:\Projects\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.csprojResolveAssemblyReference.cache
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.pdb
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.xml
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.csprojResolveAssemblyReference.cache
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
+E:\Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.pdb
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.xml
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.csprojResolveAssemblyReference.cache
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
+E:\Projects\Git Projects\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\IRLuceneSearch.pdb
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Microsoft.QualityTools.Testing.Fakes.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Contrib.Regex.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Analyzers.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Core.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Highlighter.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Queries.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Snowball.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.Spatial.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Contrib.SpellChecker.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.FastVectorHighlighter.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\bin\Lucene.Net.Search.SimpleFacetedSearch.xml
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.csprojResolveAssemblyReference.cache
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.dll
+E:\PhD Study\First Semester\Information Retrieval\CI6226-Project\IRLuceneSearch\IRLuceneSearch\IRLuceneSearch\obj\Debug\IRLuceneSearch.pdb
