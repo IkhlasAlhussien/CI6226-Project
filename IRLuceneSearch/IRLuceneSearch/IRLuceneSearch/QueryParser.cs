@@ -35,11 +35,7 @@ namespace IRLuceneSearch
              * 5. Free text query: all Other kinds of queries 
              */
             
-            // Empty Query String
-            if (input == null)
-            {
-                return null;
-            }
+            
 
           
 
@@ -57,6 +53,12 @@ namespace IRLuceneSearch
                 if (isNumLatitude && isNumLatitude)
                 {
                     bQuery.Add(QueryConstructor.CreateSpatialQuery(dLatitude, dLongitude, 10),BooleanClause.Occur.MUST);
+                }
+
+                // Empty Query String which means only contains location query
+                if (input == "")
+                {
+                    return bQuery;
                 }
             }
 

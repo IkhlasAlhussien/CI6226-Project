@@ -17,7 +17,7 @@ namespace IRLuceneSearch
         {
             IEnumerable<Review> searchResult = null;
             /* Check:if the search query is empty then return*/
-            if (string.IsNullOrEmpty(input))
+            if (string.IsNullOrEmpty(input) && latitude == "" && longitude == "")
             {
                 return searchResult;
             }

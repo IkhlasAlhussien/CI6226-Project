@@ -21,7 +21,7 @@ namespace IRLuceneSearch.Models
 
         public float scores { get; set; }
         public int docid { get; set; }
-        public float rank { get; set; }
+        public int rank { get; set; }
 
         public Business business { get; set; }
     }

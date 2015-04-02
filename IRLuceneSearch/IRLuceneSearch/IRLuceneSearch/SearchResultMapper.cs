@@ -44,7 +44,7 @@ namespace IRLuceneSearch
                 Document doc = searcher.Doc(filterScoreDosArray[i].doc);
                 int docid = filterScoreDosArray[i].doc;
                 float score = filterScoreDosArray[i].score;
-                float rank = 0;
+                int rank = i + 1;
                 Review result = _mapLuceneDocumentToData(doc, score, docid, rank);
                 //TODO:: add only summry of the review and location
                 result.text = text_summarry(result.text, words);
@@ -54,7 +54,7 @@ namespace IRLuceneSearch
             return hits;
 
         }
-        public static Review _mapLuceneDocumentToData(Document doc, float scores, int docid, float rank)
+        public static Review _mapLuceneDocumentToData(Document doc, float scores, int docid, int rank)
         {
             Review review = new Review();
             Business business = new Business();
@@ -92,7 +92,7 @@ namespace IRLuceneSearch
             if (text.Length < 400)
                 return text;
 
-            string[] sentences = text.Split('.');
+            string[] sentences = Regex.Split(text, @"(?<=[\.!\?])\s+");
             int i = 0;
             while (text.Length > 400)
             {
